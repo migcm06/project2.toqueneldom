@@ -54,7 +54,7 @@ body {
 
 .container {
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 7rem;
     display: grid;
     grid-template-columns: auto;
 }
@@ -105,7 +105,7 @@ body {
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 20px;
