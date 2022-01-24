@@ -155,14 +155,19 @@ body {
     margin-bottom: 75px;
     width: 80%;
     height: 400px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 
+
+/*
 .boton {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 222px;
-    top: 257px;
     background: #C005B6;
     border-radius: 50%;
     top: 30px;
@@ -173,8 +178,6 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 258px;
-    top: 293px;
     background: #05B5C0;
     border-radius: 50%;
     top: 15px;
@@ -187,8 +190,6 @@ body {
     position: absolute;
     width: 34px;
     height: 0px;
-    left: 309px;
-    top: 301px;
     border: 1px dashed #000000;
     transform: rotate(90.67deg);
     top: 35px;
@@ -199,10 +200,19 @@ body {
     position: absolute;
     width: 32px;
     height: 0px;
-    left: 351px;
-    top: 344.32px;
     border: 1px dashed #000000;
     transform: rotate(-179.78deg);
     top: 35px;
     left: 25%;
+}*/
+
+.recuadro {
+    position: fixed;
+    width: 320px;
+    height: 100px;
+    background: #05B5C0;
+    border-radius: 10px;
+    z-index: 30;
+    top: 40px;
+    left: 35%;
 }
