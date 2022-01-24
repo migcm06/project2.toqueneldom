@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252653;
+    display: grid;
+    grid-template-columns: 5fr;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    background-color: #2b2c63;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 10px;
+    z-index: 1;
+}
+
+.right {
+    font-family: 'Major Mono Display', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+}
+
+.link {
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.sections {
+    color: white;
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.decoration {
+    margin-top: 25px;
+    width: 100%;
+    z-index: 4;
+}
+
+.banda1 {
+    background-color: #7F00B2;
+    margin-top: 10px;
+    margin-right: 100px;
+    color: #7F00B2;
+}
+
+.banda2 {
+    background-color: #8E22BB;
+    margin-top: 10px;
+    margin-right: 200px;
+    color: #8E22BB;
+}
+
+.banda3 {
+    background-color: #AB49CC;
+    margin-top: 10px;
+    margin-right: 350px;
+    color: #AB49CC;
+}
+
+.banda4 {
+    background-color: #1280D8;
+    margin-top: 10px;
+    margin-left: 300px;
+    color: #1280D8;
+}
+
+.banda5 {
+    background-color: #4CA1F5;
+    margin-top: 10px;
+    margin-left: 363px;
+    color: #4CA1F5;
+}
+
+.content {
+    background: linear-gradient(180deg, rgba(59, 0, 82, 0.56) 0%, rgba(127, 0, 178, 0.390833) 46.35%, rgba(127, 0, 178, 0) 100%);
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    height: 70vh;
+}
+
+.text {
+    font-family: 'Lekton', sans-serif;
+    color: white;
+    font-family: Lekton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.toca {
+    background: #1280D8;
+    border: 1px solid #FEFBFE;
+    box-sizing: border-box;
+    color: white;
+    font-family: Lekton;
+    font-size: 22px;
+    width: 585px;
+    text-align: start;
+}
+
+.retro-link {
+    color: white;
+    text-decoration: none;
+}

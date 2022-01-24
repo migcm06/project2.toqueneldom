@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <title>Toquen el DOM</title>
 </head>
 
@@ -12,14 +13,14 @@
     <header>
         <nav class="nav">
             <div class="right">
-                <h1 class="logo"><a href="#home">Toquen el DOM</a></h1>
+                <h1 class="logo"><a href="#home" class="link">Toquen el DOM</a></h1>
             </div>
             <div class="left">
                 <ul class="sections">
-                    <li class="sections"><a href="" class="link">RETRO PIANO</a></li>
-                    <li class="sections"><a href="" class="link">APRENDE</a></li>
-                    <li class="sections"><a href="" class="link">TUTORIALES</a></li>
-                    <li class="sections"><a href="" class="link">CANCIONES</a></li>
+                    <li><a href="" class="link sections">RETRO-PIANO</a></li>
+                    <li><a href="" class="link sections">APRENDE</a></li>
+                    <li><a href="" class="link sections">TUTORIALES</a></li>
+                    <li><a href="" class="link sections">CANCIONES</a></li>
                 </ul>
             </div>
         </nav>
@@ -27,20 +28,27 @@
     </header>
 
     <main class="container">
+
         <section class="home">
-            <div class="banda1"></div>
-            <div class="banda2"></div>
-            <div class="banda3"></div>
-            <div class="banda4"></div>
-            <div class="banda5"></div>
+            <div class="decoration">
+                <div class="banda1">a</div>
+                <div class="banda2">a</div>
+                <div class="banda3">a</div>
+                <div class="banda4">a</div>
+                <div class="banda5">a</div>
+            </div>
+
             <div class="content">
                 <p class="text"> Esta es una página interactiva en la cual podrás tocar un piano. La hicimos para ti usando html, css y javascript. A estos proyectos se les llama Proyectos Vainilla, o Vanilla Projects. Porque no utilizamos ningún tipo de librería adicional
-                    o framework. Está hecho con javascript puro.
-                    <br> ¡Esperamos que te guste y que te diviertas!.
-                    <br> Desarrollado por:<br> L. Miguel Cuello & Yuri Andrea.
+                    o framework. Está hecho con javascript puro.</br>
+                    <br> ¡Esperamos que te guste y que te diviertas!.</br>
+                    <br> Desarrollado por:</br>
+                    </br>L. Miguel Cuello & Yuri Andrea.
+                    </br>
+                    </br>
+                    <button class="toca"> <a href="#retro-piano" class="retro-link">¡Toca el piano!</a></button>
 
                 </p>
-                <button class="toca">¡Toca el piano!</button>
             </div>
 
         </section>
