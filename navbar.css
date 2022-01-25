@@ -99,5 +99,7 @@
 
         .content {
             display: block;
+            width: 90vh;
+            height: 90vh;
         }
     }
