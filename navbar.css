@@ -93,10 +93,6 @@
         }
 
 
-        .rectangulo {
-            display: none;
-        }
-
         .content {
             display: block;
             width: 90vh;
