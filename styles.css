@@ -73,8 +73,7 @@ a {
 
 .content {
     background: linear-gradient(180deg, rgba(59, 0, 82, 0.56) 0%, rgba(127, 0, 178, 0.390833) 46.35%, rgba(127, 0, 178, 0) 100%);
-    margin-top: 15px;
-    margin-left: 20px;
+  margin: 20px 30px;
     margin-right: 20px;
     padding-top: 5px;
     padding-left: 5px;
@@ -109,10 +108,7 @@ a {
     border: 1px solid #DF0A7D;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-top: 6rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 75px;
+    margin: 5rem 6rem;
     width: 80%;
     height: 400px;
     z-index: 50;
@@ -155,4 +151,9 @@ a {
         width: 585px;
         text-align: start;
     }
+
+    .rectangulo {
+        display: none;
+    }
+
 }
