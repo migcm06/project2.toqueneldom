@@ -6,30 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="navbar.css" rel="stylesheet" type="text/css" />
+    <script defer src="js/funciones.js"></script>
     <title>Toquen el DOM</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav">
-            <div class="right">
-                <h1 class="logo"><a href="#" class="link">Toquen el DOM</a></h1>
-            </div>
-            <div class="left">
-                <ul class="sections">
-                    <li class="link sections"><a href="#instrument" class="link sections">RETRO-PIANO</a></li>
-                    <li class="link sections"><a href="" class="link sections">APRENDE</a></li>
-                    <li class="link sections"><a href="" class="link sections">TUTORIALES</a></li>
-                    <li class="link sections"><a href="" class="link sections">CANCIONES</a></li>
-                </ul>
-            </div>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+
+                <div>
+                    Toquen <br/>el DOM
+                </div>
+            </a>
+
+            <button class="open-menu" aria-label="Abrir el menú">
+                <img src="img/list.svg" alt="Abrir menú">
+            </button>
+
+
+
+
+            <ul class="menu menu_opened">
+
+                <button class="close-menu" aria-label="Cerrar el menú"> <img src="img/cerrar.svg" alt="Cerrar menú"> </button>
+
+                <li>
+                    <a href="#aprende">Aprende</a>
+                </li>
+                <li>
+                    <a href="#Piano">Piano</a>
+                </li>
+                <li>
+                    <a href="#Canciones">Canciones</a>
+                </li>
+                <li>
+                    <a href="#tutoriales">Tutoriales</a>
+                </li>
+            </ul>
         </nav>
-
     </header>
-
     <main class="container">
 
-        <section id="home">
+        <section class="aprende">
             <div class="decoration">
                 <div class="banda1">a</div>
                 <div class="banda2">a</div>
@@ -51,34 +71,17 @@
                 </p>
             </div>
 
+
+
+
         </section>
 
         <section id="instrument">
 
-            <div class="rectangulo">
-
-                <div class="boton">
-                    <div class="botona">
-                        <div class="linx"></div>
-                        <div class="liny"></div>
-                    </div>
-
-                    <div class="recuadro">
-
-                    </div>
-
-                    <div class="boton2">
-                        <div class="botona2">
-                            <div class="linx2"></div>
-                            <div class="liny2"></div>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="rectangulo">Despues de un dpia dandole al marquetado y css y algo de js, hasta aqui llego por le momento, aqui pienso pintar el piano.
+            </div>
         </section>
 
-    </main>
 
 
 </body>
