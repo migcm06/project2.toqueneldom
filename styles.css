@@ -171,6 +171,18 @@ a {
     left: 58px;
 }
 
+.fas {
+    left: 130px;
+}
+
+.sols {
+    left: 166px;
+}
+
+.las {
+    left: 202px;
+}
+
 
 /*.rectangulo {
     background: conic-gradient(from 180deg at 50% 50%, #7F00B2 0deg, rgba(127, 0, 178, 0.796875) 0.04deg, rgba(127, 0, 178, 0) 360deg);
