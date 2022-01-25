@@ -1,60 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+:root {
+    --barra: #2b2c63;
+    --body: #252653;
+    --banda1: #7F00B2;
+    --banda2: #8E22BB;
+    --banda3: #AB49CC;
+    --banda4: #1280D8;
+    --banda5: #4CA1F5;
+    --blanco: white;
+    --shadow: rgb(240, 47, 137);
+    --background-celu: rgb(40, 2, 71);
 }
 
 body {
-    background-color: #252653;
-    display: grid;
-    grid-template-columns: 5fr;
+    font-family: 'Major mono display';
+    background-color: var(--body);
 }
 
-.nav {
-    width: 100%;
-    position: fixed;
-    background-color: #2b2c63;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 30px 10px;
-    z-index: 1;
-}
-
-.right {
-    font-family: 'Major Mono Display', monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    font-size: 36px;
-}
-
-.link {
-    font-size: 36px;
-    color: white;
+a {
     text-decoration: none;
-}
-
-.left {
-    font-family: 'Major Mono Display', monospace;
-}
-
-.sections {
-    color: white;
-    font-size: 24px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    color: var(--blanco);
 }
 
 .container {
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: auto;
 }
@@ -133,17 +104,6 @@ body {
     text-align: start;
 }
 
-.retro-link {
-    color: white;
-    text-decoration: none;
-}
-
-#instrument {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .rectangulo {
     background: conic-gradient(from 180deg at 50% 50%, #7F00B2 0deg, rgba(127, 0, 178, 0.796875) 0.04deg, rgba(127, 0, 178, 0) 360deg);
     border: 1px solid #DF0A7D;
@@ -162,57 +122,37 @@ body {
     position: relative;
 }
 
-
-/*
-.boton {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: #C005B6;
-    border-radius: 50%;
-    top: 30px;
-    left: 15%;
-}
-
-.botona {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background: #05B5C0;
-    border-radius: 50%;
-    top: 15px;
-    left: 15%;
-    border-style: none;
-    z-index: 10;
-}
-
-.linx {
-    position: absolute;
-    width: 34px;
-    height: 0px;
-    border: 1px dashed #000000;
-    transform: rotate(90.67deg);
-    top: 35px;
-    left: 25%;
-}
-
-.liny {
-    position: absolute;
-    width: 32px;
-    height: 0px;
-    border: 1px dashed #000000;
-    transform: rotate(-179.78deg);
-    top: 35px;
-    left: 25%;
-}*/
-
-.recuadro {
-    position: fixed;
-    width: 320px;
-    height: 100px;
-    background: #05B5C0;
-    border-radius: 10px;
-    z-index: 30;
-    top: 40px;
-    left: 35%;
+@media (max-width: 640px) {
+    .content {
+        background: linear-gradient(180deg, rgba(59, 0, 82, 0.56) 0%, rgba(127, 0, 178, 0.390833) 46.35%, rgba(127, 0, 178, 0) 100%);
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 20px;
+        width: 90%;
+        height: 70%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .text {
+        font-family: 'Lekton', sans-serif;
+        color: white;
+        font-family: Lekton;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 36px;
+        width: 100%;
+        height: 70%;
+    }
+    .toca {
+        background: #1280D8;
+        border: 1px solid #FEFBFE;
+        box-sizing: border-box;
+        color: white;
+        font-family: Lekton;
+        font-size: 22px;
+        width: 585px;
+        text-align: start;
+    }
 }
