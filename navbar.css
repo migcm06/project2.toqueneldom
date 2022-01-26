@@ -70,7 +70,8 @@
             pointer-events: none;
         }
         .menu li {
-            padding: 0;
+            padding: 35px 10px;
+            margin-left: 0;
         }
         .menu a {
             line-height: 60px;
@@ -89,5 +90,12 @@
         .menu_opened {
             opacity: 1;
             pointer-events: all;
+        }
+
+
+        .content {
+            display: block;
+            width: 90vh;
+            height: 90vh;
         }
     }

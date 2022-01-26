@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="navbar.css" rel="stylesheet" type="text/css" />
-
-    <title>Toquen el DOM</title>
+    <script defer src="funciones.js"></script>
+    <title>Piano-chan</title>
 </head>
 
 <body>
@@ -48,39 +48,35 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
 
-        <section class="aprende">
-            <div class="decoration">
-                <div class="banda1">-</div>
-                <div class="banda2">-</div>
-                <div class="banda3">-</div>
-                <div class="banda4">-</div>
-                <div class="banda5">-</div>
-            </div>
-
-            <div class="content">
-                <p class="text"> Esta es una página interactiva en la cual podrás tocar un piano. La hicimos para ti
-                    usando html, css y javascript. A estos proyectos se les llama Proyectos Vainilla, o Vanilla
-                    Projects. Porque no utilizamos ningún tipo de librería adicional
-                    o framework. Está hecho con javascript puro.</br>
-                    <br> ¡Esperamos que te guste y que te diviertas!.</br>
-                    <br> Desarrollado por:
-                    </br>L. Miguel Cuello & Yuri Andrea.
-                    </br>
-                    </br>
-                    <button class="toca"> <a href="piano.html" class="retro-link">¡Toca el piano!</a></button>
-
-                </p>
+    <main class="instrumento">
+        <div class="base">
+            <div class="piano">
+                <button class="white-key do"></button>
+                <button class="black-key dos"></button>
+                <button class="white-key re"></button>
+                <button class="black-key res"></button>
+                <button class="white-key mi"></button>
+                <button class="white-key fa"></button>
+                <button class="black-key fas"></button>
+                <button class="white-key sol"></button>
+                <button class="black-key sols"></button>
+                <button class="white-key la"></button>
+                <button class="black-key las"></button>
+                <button class="white-key si"></button>
+                <button class="white-key dom"></button>
+                <button class="black-key doms"></button>
+                <button class="white-key rem"></button>
+                <button class="black-key rems"></button>
+                <button class="white-key mim"></button>
             </div>
 
 
+        </div>
+    </main>
 
 
-
-
-
-            <script defer src="funciones.js"></script>
 </body>
+
 
 </html>
