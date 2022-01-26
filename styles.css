@@ -124,7 +124,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#7F00B2, #4CA1F5);
+    background-image: linear-gradient(#3b0152, #45a0fa);
     /*position: absolute;
     background: conic-gradient(from 180deg at 50% 50%, #00b218 0deg, rgba(127, 0, 178, 0.796875) 0.04deg, rgba(127, 0, 178, 0) 360deg);
     border: 1px solid #ffffff;
@@ -157,7 +157,7 @@ a {
     position: absolute;
     width: 24px;
     height: 80px;
-    background-image: linear-gradient(black, purple);
+    background-image: linear-gradient(#7F00B2, #8E22BB, #AB49CC, #1280D8, #4CA1F5);
     border: 3px solid black;
     outline: none;
     cursor: pointer;
@@ -181,6 +181,14 @@ a {
 
 .las {
     left: 202px;
+}
+
+.doms {
+    left: 274px;
+}
+
+.rems {
+    left: 310px;
 }
 
 
