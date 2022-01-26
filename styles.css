@@ -117,7 +117,7 @@ a {
     margin-top: 5%;
 }
 
-.base {
+#contenedor {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -136,13 +136,13 @@ a {
     margin-left: 4%;*/
 }
 
-.piano {
+#piano {
     display: flex;
     position: relative;
     margin-left: 4px;
 }
 
-.white-key {
+.tecla-blanca {
     width: 40px;
     height: 120px;
     background-color: #fff;
@@ -153,16 +153,26 @@ a {
     cursor: pointer;
 }
 
-.white-key:hover {
+.tecla-blanca:hover {
     background-color: rgb(74, 3, 133);
     color: white;
 }
 
-.black-key {
+.tecla-negra {
     position: absolute;
     width: 24px;
     height: 80px;
     background-image: linear-gradient(#7F00B2, #8E22BB, #AB49CC, #1280D8, #4CA1F5);
+    border: 3px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+.tecla-negra:hover {
+    position: absolute;
+    width: 24px;
+    height: 80px;
+    background-image: linear-gradient(#4b0069, #3b0f4e, #713186, #0a4372, #376fa7);
     border: 3px solid black;
     outline: none;
     cursor: pointer;

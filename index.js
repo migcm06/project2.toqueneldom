@@ -1,3 +1,16 @@
+const menu = document.querySelector(".menu");
+const openMenuBtn = document.querySelector(".open-menu");
+const closeMenuBtn = document.querySelector(".close-menu");
+
+function toggleMenu() {
+    menu.classList.toggle("menu_opened");
+}
+
+openMenuBtn.addEventListener("click", toggleMenu);
+closeMenuBtn.addEventListener("click", toggleMenu);
+
+/*Piano*/
+
 const DO4 = new Audio("/sounds/DO4.mp3");
 const REb4 = new Audio("/sounds/REb4.mp3");
 const RE4 = new Audio("/sounds/RE4.mp3");
@@ -28,7 +41,6 @@ const tocarTecla = (idTecla, nota) => {
     tecla.classList.add("active");
     setTimeout(() => tecla.classList.remove("active"), 100);
 };
-
 const teclas = [
     { id: ".DO4", nota: DO4, key: 81 },
     { id: ".REb4", nota: REb4, key: 50 },
