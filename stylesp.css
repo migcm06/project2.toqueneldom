@@ -58,7 +58,6 @@ a {
 
 .tecla-blanca:hover {
     background-color: rgb(74, 3, 133);
-    color: white;
 }
 
 .tecla-negra {
@@ -69,6 +68,10 @@ a {
     border: 3px solid black;
     outline: none;
     cursor: pointer;
+}
+
+.tecla-negra:hover {
+    background-image: linear-gradient(#0406a1, #1c1a94, #180383, #a00e7b, #d30665);
 }
 
 .REb4 {
