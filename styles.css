@@ -37,17 +37,17 @@ a {
 }
 
 .banda1 {
-    background-color: #7F00B2;
+    background-color: var(--banda1);
     margin-top: 10px;
     margin-right: 100px;
-    color: #7F00B2;
+    color: var(--banda1);
 }
 
 .banda2 {
-    background-color: #8E22BB;
+    background-color: var(--banda2);
     margin-top: 10px;
     margin-right: 200px;
-    color: #8E22BB;
+    color: var(--banda2);
 }
 
 .banda3 {
@@ -252,9 +252,6 @@ a {
 }
 
 @media (max-width:360px) {
-    body {
-        background-color: black;
-    }
     .content {
         background: linear-gradient(180deg, rgba(37, 0, 51, 0.56) 0%, rgba(183, 0, 255, 0.391) 46.35%, rgba(127, 0, 178, 0) 100%);
         margin: 10px 20px;
